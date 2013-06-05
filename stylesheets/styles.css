@@ -1,13 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  font:14px/1.5 Helvetica, sans-serif;
+  color:#444;
   font-weight:300;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, sans-serif;
   color:#222;
   margin:0 0 20px;
 }
@@ -180,7 +180,7 @@ footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:0%;
 }
 
 @media print, screen and (max-width: 960px) {
